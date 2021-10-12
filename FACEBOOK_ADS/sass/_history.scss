@@ -1,0 +1,87 @@
+.history {
+  margin-bottom: 50px;
+  &-table {
+    display: flex;
+    gap: 0 30px;
+    position: relative;
+  }
+}
+.order {
+  background-color: $color-primary;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 25px 20px;
+  &-heading {
+    color: #50d38a;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+  &-table {
+    width: 100%;
+    & thead {
+      border-bottom: 1px solid $color-text;
+      & th {
+        padding: 8px 0;
+      }
+    }
+    & tbody {
+      text-align: center;
+      vertical-align: middle;
+      & td {
+        padding: 8px 0;
+      }
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #50d38a;
+    top: 0;
+    left: 22px;
+    z-index: 1;
+  }
+}
+.card {
+  background-color: $color-primary;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 25px;
+  &-heading {
+    color: #50d38a;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+  &-table {
+    width: 100%;
+    & thead {
+      border-bottom: 1px solid $color-text;
+      & th {
+        padding: 8px 0;
+      }
+    }
+    & tbody {
+      text-align: center;
+      vertical-align: middle;
+      & td {
+        padding: 8px 0;
+      }
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #50d38a;
+    top: 0;
+    z-index: 1;
+  }
+}
