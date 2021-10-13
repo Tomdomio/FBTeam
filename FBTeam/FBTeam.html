@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>TRANG CHỦ - HỆ THỐNG TÀI NGUYÊN FACEBOOK ADS TOP 1 VIỆT NAM</title>
   </head>
-  <body class="preloading">
+  <body class="preloading body">
     <!-- loading -->
     <div class="loader"></div>
     <div class="bg-load"></div>
@@ -26,19 +26,38 @@
           <img src="./images/logo.png" alt="" class="header-logo-img" />
         </div>
         <div class="header-name">FBTEAM</div>
-        <div class="header-right">
-          <div class="header-right-surplus">
+        <div href="#" class="header-right">
+          <a href="#" class="header-right-surplus">
             <span class="header-right-surplus-text"> SỐ DƯ: 0đ</span>
-          </div>
-          <div class="header-right-endow">
+          </a>
+          <a href="#" class="header-right-endow">
             <ion-icon class="header-right-endow-icon" name="gift-outline"></ion-icon>
             <span class="header-right-endow-text">ƯU ĐÃI</span>
-          </div>
+          </a>
           <label for="open_Modal" class="header-right-notifi">
             <ion-icon class="header-right-notification-icon" name="notifications-outline"></ion-icon>
+            <div class="header-right-notifi-number">1</div>
           </label>
           <div class="header-right-avatar">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD3TDQBB-_F1sfu-gElz73vtUAdlOdLerHDw&usqp=CAU" alt="__avatar" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD3TDQBB-_F1sfu-gElz73vtUAdlOdLerHDw&usqp=CAU"
+              id="__avatar"
+              alt="__avatar"
+            />
+            <div class="layer">
+              <div class="layer-top">
+                <div class="layer-top-username">USER NAME: 0392601352</div>
+                <div class="layer-top-rating">THỨ HẠNG: MEMBER</div>
+                <div class="layer-top-profile">
+                  <ion-icon class="layer-top-profile-icon" name="person-circle-outline"></ion-icon>
+                  <a href="#" class="layer-top-profile-text">THÔNG TIN</a>
+                </div>
+              </div>
+              <div class="layer-bottom">
+                <ion-icon class="layer-bottom-icon" name="log-out-outline"></ion-icon>
+                <span class="layer-bottom-logout">Đăng xuất</span>
+              </div>
+            </div>
           </div>
         </div>
         <input type="checkbox" hidden class="open_Modal" id="open_Modal" />
@@ -66,14 +85,44 @@
         </div>
         <!-- End Modal Popup -->
       </div>
+      <!-- Menu -->
+      <div class="nav">
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a href="#" class="menu-list-item-link"><ion-icon name="home-outline"></ion-icon>Trang Chủ</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-list-item-link"><ion-icon name="cart-outline"></ion-icon>Mua hàng</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-list-item-link"><ion-icon name="cash-outline"></ion-icon>Đơn đã mua</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-list-item-link"><ion-icon name="checkmark-circle-outline"></ion-icon> Tool Check</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-list-item-link"><ion-icon name="color-wand-outline"></ion-icon>Thủ thuật</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-list-item-link"><ion-icon name="briefcase-outline"></ion-icon>Bảo hành</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-list-item-link"><ion-icon name="qr-code-outline"></ion-icon>Nạp tiền</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-list-item-link"><ion-icon name="invert-mode-outline"></ion-icon>Dịch vụ khác</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Menu -->
     </header>
     <!-- End Header -->
     <!-- Section 1 -->
-    <section class="section">
-      
-    </section>
+    <section class="section"></section>
     <!-- End Section 1 -->
-    <section class="history">
+    <section class="history" style="margin-top: 220px">
       <div class="wrapper">
         <div class="history-table">
           <div class="order">
@@ -149,5 +198,5 @@
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"
   ></script>
-  <script src="./js/facebook.js"></script>
+  <script src="./js/FBTeam.js"></script>
 </html>
