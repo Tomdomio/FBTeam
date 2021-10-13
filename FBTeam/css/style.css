@@ -501,4 +501,48 @@ tbody {
   overflow: hidden;
 }
 
+.header-right {
+  margin-left: auto;
+  display: flex;
+  gap: 0 15px;
+  align-items: center;
+}
+.header-right-surplus {
+  padding: 10px 22px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+.header-right-surplus-text {
+  font-size: 13px;
+  color: #fff;
+}
+.header-right-endow {
+  padding: 10px 22px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0 5px;
+}
+.header-right-endow-text {
+  font-size: 13px;
+  color: #fff;
+}
+.header-right-notifi {
+  margin: 0 20px;
+  cursor: pointer;
+}
+.header-right-notifi ion-icon {
+  font-size: 20px;
+  color: #fff;
+}
+.header-right-avatar {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 100%;
+}
+.header-right-avatar img {
+  border-radius: inherit;
+}
+
 /*# sourceMappingURL=style.css.map */

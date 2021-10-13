@@ -1,0 +1,45 @@
+.header {
+  &-right {
+    margin-left: auto;
+    display: flex;
+    gap: 0 15px;
+    align-items: center;
+    &-surplus {
+      padding: 10px 22px;
+      border: 1px solid $color-primary;
+      border-radius: 30px;
+      &-text {
+        font-size: 13px;
+        color: $color-primary;
+      }
+    }
+    &-endow {
+      padding: 10px 22px;
+      border: 1px solid $color-primary;
+      border-radius: 30px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0 5px;
+      &-text {
+        font-size: 13px;
+        color: $color-primary;
+      }
+    }
+    &-notifi {
+      margin: 0 20px;
+      cursor: pointer;
+      & ion-icon {
+        font-size: 20px;
+        color: $color-primary;
+      }
+    }
+    &-avatar {
+      max-width: 50px;
+      max-height: 50px;
+      border-radius: 100%;
+      & img {
+        border-radius: inherit;
+      }
+    }
+  }
+}
